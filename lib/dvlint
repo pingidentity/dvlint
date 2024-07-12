@@ -110,7 +110,7 @@ Please ensure the rule pack is installed and available in the node_modules direc
 The default rule pack used is '@ping-identity/dvlint-base-rule-pack'.
 You can install running the following command:
 
-  npm install -g @ping-identity/dvlint-base-rule-pack --registry https://npm.pinglibrary.com
+  npm install -g @ping-identity/dvlint-base-rule-pack
 `,
     );
     process.exit(1);
