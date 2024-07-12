@@ -1,4 +1,7 @@
-@ping-identity/dvlint  ![example workflow](https://github.com/pingidentity/dvlint/actions/workflows/tests.yml/badge.svg)
+@ping-identity/dvlint - PingOne DaVinci Linter Core and CLI
+=========
+
+![example workflow](https://github.com/pingidentity/dvlint/actions/workflows/tests.yml/badge.svg)
 =========
 ## From Ping Identity
 ### Authors: Cloud Solutions Team
