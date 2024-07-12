@@ -4,7 +4,7 @@
   "errorCount": 0,
   "rulePackResults": [
     {
-      "name": "@pingidentity/dvlint",
+      "name": "@ping-identity/dvlint",
       "pass": true,
       "errorCount": 0,
       "lintResults": [

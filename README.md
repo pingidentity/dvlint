@@ -1,4 +1,4 @@
-@pingidentity/dvlint  ![example workflow](https://github.com/pingidentity/dvlint/actions/workflows/tests.yml/badge.svg)
+@ping-identity/dvlint  ![example workflow](https://github.com/pingidentity/dvlint/actions/workflows/tests.yml/badge.svg)
 =========
 ## From Ping Identity
 ### Authors: Cloud Solutions Team
@@ -6,7 +6,7 @@
 ---
 ## NOTE:
 ### For native integration with your Javascript or browser-based apps, please use the NPM package hosted
-[here](https://npm.pinglibrary.com/-/web/detail/@pingidentity/dvlint).
+[here](https://npm.pinglibrary.com/-/web/detail/@ping-identity/dvlint).
 ### You only need to clone or fork this repo if your intent is to contribute to, or extend, this project.
 ---
 
@@ -36,8 +36,8 @@ and evaluate the results and  make changes to meet your internal application sec
 ### Installation
 
 ```bash
-npm install -g @pingidentity/dvlint                 --registry https://npm.pinglibrary.com
-npm install -g @pingidentity/dvlint-base-rule-pack  --registry https://npm.pinglibrary.com
+npm install -g @ping-identity/dvlint
+npm install -g @ping-identity/dvlint-base-rule-pack
 
 dvlint -V     # Returns version
 dvlint -r     # Prints out rules from default rule pack
