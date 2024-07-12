@@ -5,8 +5,7 @@
 
 ---
 ## NOTE:
-### For native integration with your Javascript or browser-based apps, please use the NPM package hosted
-[here](https://npm.pinglibrary.com/-/web/detail/@ping-identity/dvlint).
+
 ### You only need to clone or fork this repo if your intent is to contribute to, or extend, this project.
 ---
 
