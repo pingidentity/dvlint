@@ -1,6 +1,6 @@
 {
   "name": "@ping-identity/dvlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PingOne DaVinci Flow Linter",
   "homepage": "https://library.pingidentity.com/page/davinci-linter-cli",
   "main": "lib/index.js",
