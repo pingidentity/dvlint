@@ -43,7 +43,8 @@
         "js": "never",
         "ts": "never"
       }
-    ]
+    ],
+    "no-console": 0
   },
   "overrides": [
     {

@@ -1,5 +1,13 @@
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  }
+  },
+  "cSpell.words": [
+    "datetime",
+    "davinci",
+    "dvlint",
+    "ramac",
+    "sprintf",
+    "subflows"
+  ]
 }
