@@ -20,7 +20,7 @@ class ExampleRule extends LintRule {
   runRule() {
     try {
       const dvFlow = this.mainFlow;
-      const someErrorCondition = false;
+      const someErrorCondition = true;
 
       // Variation where this rule is ignored in any subflows
       // const { allFlows } = this;
@@ -29,7 +29,10 @@ class ExampleRule extends LintRule {
       // }
 
       if (someErrorCondition) {
-        this.addError("example-error", { messageArgs: [dvFlow.flowId] });
+        this.addError("example-error", {
+          messageArgs: [dvFlow.flowId],
+          nodeId: "n1234",
+        });
       }
     } catch (err) {
       this.addError("generic-error", { messageArgs: [`${err}`] });

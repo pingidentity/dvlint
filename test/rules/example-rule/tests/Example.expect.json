@@ -1,19 +1,27 @@
 {
   "name": "PingOne DaVinci Linter",
-  "pass": true,
-  "errorCount": 0,
+  "pass": false,
+  "errorCount": 1,
   "rulePackResults": [
     {
       "name": "@ping-identity/dvlint",
-      "pass": true,
-      "errorCount": 0,
+      "pass": false,
+      "errorCount": 1,
       "lintResults": [
         {
           "flowId": "2291498df43a63457abad5d2d1fa4df9",
           "flowName": "dv-rule-general-001",
-          "pass": true,
-          "errorCount": 0,
-          "errors": [],
+          "pass": false,
+          "errorCount": 1,
+          "errors": [
+            {
+              "code": "example-error",
+              "message": "Example Rule of flow '2291498df43a63457abad5d2d1fa4df9'",
+              "nodeId": "n1234",
+              "recommendation": "We recommend this example.",
+              "type": "best-practice"
+            }
+          ],
           "rulesApplied": [
             "example-rule"
           ],
@@ -21,9 +29,17 @@
             {
               "ruleId": "example-rule",
               "ruleDescription": "Example Rule",
-              "pass": true,
-              "errorCount": 0,
-              "errors": []
+              "pass": false,
+              "errorCount": 1,
+              "errors": [
+                {
+                  "code": "example-error",
+                  "message": "Example Rule of flow '2291498df43a63457abad5d2d1fa4df9'",
+                  "nodeId": "n1234",
+                  "recommendation": "We recommend this example.",
+                  "type": "best-practice"
+                }
+              ]
             }
           ],
           "rulesIgnored": []
