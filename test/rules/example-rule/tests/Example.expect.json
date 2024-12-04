@@ -1,18 +1,18 @@
 {
   "name": "PingOne DaVinci Linter",
   "pass": false,
-  "errorCount": 1,
+  "errorCount": 3,
   "rulePackResults": [
     {
       "name": "@ping-identity/dvlint",
       "pass": false,
-      "errorCount": 1,
+      "errorCount": 3,
       "lintResults": [
         {
           "flowId": "2291498df43a63457abad5d2d1fa4df9",
           "flowName": "dv-rule-general-001",
           "pass": false,
-          "errorCount": 1,
+          "errorCount": 3,
           "errors": [
             {
               "code": "example-error",
@@ -20,6 +20,20 @@
               "nodeId": "n1234",
               "recommendation": "We recommend this example.",
               "type": "best-practice"
+            },
+            {
+              "code": "ruleId-example-rule",
+              "message": "Unknown Error [ruleId:example-rule]: Testing undefined errors",
+              "type": "internal-error",
+              "recommendation": "Resolve error, exclude or ignore this rule for the flow.",
+              "flowId": "2291498df43a63457abad5d2d1fa4df9"
+            },
+            {
+              "code": "ruleId-example-rule-unknown-code",
+              "message": "Unknown Error Code [ruleId:example-rule]: unknown-code",
+              "type": "internal-error",
+              "recommendation": "Correct rule to include valid code.",
+              "flowId": "2291498df43a63457abad5d2d1fa4df9"
             }
           ],
           "rulesApplied": [
@@ -30,7 +44,7 @@
               "ruleId": "example-rule",
               "ruleDescription": "Example Rule",
               "pass": false,
-              "errorCount": 1,
+              "errorCount": 3,
               "errors": [
                 {
                   "code": "example-error",
@@ -38,6 +52,20 @@
                   "nodeId": "n1234",
                   "recommendation": "We recommend this example.",
                   "type": "best-practice"
+                },
+                {
+                  "code": "ruleId-example-rule",
+                  "message": "Unknown Error [ruleId:example-rule]: Testing undefined errors",
+                  "type": "internal-error",
+                  "recommendation": "Resolve error, exclude or ignore this rule for the flow.",
+                  "flowId": "2291498df43a63457abad5d2d1fa4df9"
+                },
+                {
+                  "code": "ruleId-example-rule-unknown-code",
+                  "message": "Unknown Error Code [ruleId:example-rule]: unknown-code",
+                  "type": "internal-error",
+                  "recommendation": "Correct rule to include valid code.",
+                  "flowId": "2291498df43a63457abad5d2d1fa4df9"
                 }
               ]
             }
