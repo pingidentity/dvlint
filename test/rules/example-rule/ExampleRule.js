@@ -34,8 +34,13 @@ class ExampleRule extends LintRule {
           nodeId: "n1234",
         });
       }
+
+      // Test an undefined error
+      this.addError(undefined, { messageArgs: ["Testing undefined errors"] });
+      // Create an unknown code error
+      this.addError("unknown-code");
     } catch (err) {
-      this.addError("generic-error", { messageArgs: [`${err}`] });
+      this.addError(undefined, { messageArgs: [`${err}`] });
     }
   }
 }
