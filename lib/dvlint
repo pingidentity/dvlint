@@ -65,6 +65,10 @@ program
     "-g, --ignoreRule <ruleName>",
     "specify specific rule(s) to ignore - comma separated list",
   )
+  .option(
+    "-k, --excludeRuleCode <ruleName.code>",
+    "specify specific rule.code(s) to exclude - comma separated list",
+  )
   .option("-j, --json", "returns json in output")
   .option("-t, --table", "returns text table in output. (default)")
   .option("-c, --lintCodes", "print lint codes table")
@@ -169,8 +173,9 @@ if (options.flow) {
 Linting File: ${options.flow}
   Clean File: ${cleanFlowPath || "--no-clean--"}
        Rules: ${options.includeRule || "ALL"}
-     Exclude: ${options.excludeRule || "NONE"}
-      Ignore: ${options.ignoreRule || "NONE"}
+ExcludeRules: ${options.excludeRule || "NONE"}
+ IgnoreRules: ${options.ignoreRule || "NONE"}
+ExcludeCodes: ${options.excludeRuleCode || "NONE"}
 --------------------------------
     `);
   }
@@ -179,6 +184,9 @@ Linting File: ${options.flow}
     includeRules: options.includeRule ? options.includeRule : undefined,
     excludeRules: options.excludeRule ? options.excludeRule : undefined,
     ignoreRules: options.ignoreRule ? options.ignoreRule : undefined,
+    excludeRuleCodes: options.excludeRuleCode
+      ? options.excludeRuleCode
+      : undefined,
     cleanFlow: options.clean !== undefined,
   });
 
