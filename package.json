@@ -48,5 +48,8 @@
     "commander": "^12.1.0",
     "diff": "^5.2.0",
     "table": "^6.8.1"
+  },
+  "overrides": {
+    "minimatch": "^10.2.1"
   }
 }
