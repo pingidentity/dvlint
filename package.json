@@ -1,9 +1,10 @@
 {
   "name": "@ping-identity/dvlint",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "PingOne DaVinci Flow Linter",
   "homepage": "https://library.pingidentity.com/page/davinci-linter-cli",
   "main": "lib/index.js",
+  "type": "commonjs",
   "bin": {
     "dvlint": "lib/dvlint"
   },
@@ -46,7 +47,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^12.1.0",
-    "diff": "^5.2.0",
+    "diff": "^8.0.3",
     "table": "^6.8.1"
   },
   "overrides": {
