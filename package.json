@@ -1,6 +1,6 @@
 {
   "name": "@ping-identity/dvlint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "PingOne DaVinci Flow Linter",
   "homepage": "https://library.pingidentity.com/page/davinci-linter-cli",
   "main": "lib/index.js",
@@ -48,5 +48,8 @@
     "commander": "^12.1.0",
     "diff": "^5.2.0",
     "table": "^6.8.1"
+  },
+  "overrides": {
+    "minimatch": "^10.2.1"
   }
 }
