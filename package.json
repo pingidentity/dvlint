@@ -47,7 +47,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^12.1.0",
-    "diff": "^5.2.0",
+    "diff": "^8.0.3",
     "table": "^6.8.1"
   },
   "overrides": {
